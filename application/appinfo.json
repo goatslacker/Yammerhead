@@ -1,0 +1,15 @@
+{
+	"id": "com.goatslacker.yammerhead",
+	"version": "1.0.0",
+	"vendor": "goatslacker",
+	"type": "web",
+	"main": "index.html",
+	"title": "Yammerhead",
+  "noDeprecatedStyles": "true",
+  "copyright": "© Copyright 2011 goatslacker",
+  "splashicon": "images/splashicon.png",
+  "splashBackground": "images/splashBackground.png",
+  "theme": "light",
+	"icon": "icon.png",
+  "keywords": [ "yammer", "social", "network" ]
+}

@@ -1,0 +1,55 @@
+<div class="splash-scene fixed"></div>
+<div class="palm-scene transparent">
+
+  <div class="palm-page-header">
+    <div class="palm-page-header-wrapper">
+      <div class="title">Authorize Yammerhead</div>
+    </div>
+  </div>
+
+  <div id="login">
+    <div class="palm-text-wrapper">
+      <div class="palm-body-text">
+        Before you can use Yammerhead you'll need to authorize access to your Yammer account.
+      </div>
+
+      <div class="palm-body-text">
+        To begin, click "Log In" below to login to your Yammer account.
+      </div>
+    </div>
+
+    <div x-mojo-element="Button" id="loginId" name="loginName"></div>
+  </div>
+
+
+  <div id="authorize" style="display: none">
+    <div class="palm-text-wrapper">
+      <div class="palm-body-text">
+        After you've clicked "authorize" in your browser you should receive a four digit code. Enter this code here to start using Yammerhead.
+      </div>
+
+      <div class="palm-body-text">
+        Please enter the four digit code provided by Yammer. <strong>Code is Case-Sensitive</strong>.
+      </div>
+    </div>
+
+    <div class="palm-group unlabeled">
+      <div class="palm-list">
+        <div class="palm-row single">
+          <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+            <div class="title">
+              <div x-mojo-element="TextField" id="callbackTokenId" name="callbackTokenName"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div x-mojo-element="Button" id="authorizeId" name="authorizeName"></div>
+  </div>
+
+  <div class="palm-scrim" id="spinnerScrim">
+    <div x-mojo-element="Spinner" id="mojoSpinner" name="mojoSpinner" class='spinner'></div>
+  </div>
+
+</div>

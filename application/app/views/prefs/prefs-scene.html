@@ -1,0 +1,53 @@
+<div class="splash-scene fixed"></div>
+<div class="palm-scene transparent">
+
+
+  <div class="palm-group not-opaque">
+    <div class="palm-group-title" x-mojo-loc=''>Display Settings</div>
+    <div class="palm-list">
+
+      <div class="palm-row first" x-mojo-highlight="immediate">
+        <div class="palm-row-wrapper">
+          <!-- Main View: thread || all -->
+          <div x-mojo-element="ListSelector" id="viewSelector"></div>
+          <!-- <div class="subtitle">Thread only shows status updates</div> -->
+        </div>
+      </div>
+
+      <div class="palm-row">
+        <div class="palm-row-wrapper">
+          <div x-mojo-element="ListSelector" id="msgctSelector"></div>
+          <!--<div class="subtitle">Messages to keep in the cache</div>-->
+        </div>
+      </div>
+
+      <div class="palm-row">
+        <div class="palm-row-wrapper">
+          <div x-mojo-element="ListSelector" id="threadctSelector"></div>
+          <!--<div class="subtitle">Threads to keep in the cache</div>-->
+        </div>
+      </div>
+
+      <div class="palm-row">
+        <div class="palm-row-wrapper textfield-group">
+          <div x-mojo-element="Button" id="clearCache"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--
+  Notification Settings
+  Background: On/Off
+  Allow access to run in the background
+
+  Poll time: Off, 5, 10, 15, 30, 45, 1hr, 3hr, 6hr
+  Amount of time between updates
+
+  System Sound: On/Off
+  Enable or disable alerts when new messages arrive
+  -->
+
+</div>

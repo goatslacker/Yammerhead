@@ -1,0 +1,14 @@
+[
+  { "source": "app/assistants/stage-assistant.js" },
+  { "source": "app/models/asyncWrappers.js" },
+  { "source": "app/models/metrix.js" },
+  { "source": "app/models/yammer.js" },
+  { "source": "keys.js" },
+  { "source": "app/models/oauth.js" },
+  { "source": "app/models/turbo.js" },
+  { "scenes": "oauth", "source": "app/assistants/oauth-assistant.js" },
+  { "scenes": "prefs", "source": "app/assistants/prefs-assistant.js" },
+  { "scenes": "splash", "source": "app/assistants/splash-assistant.js" },
+  { "scenes": "messages", "source": "app/assistants/messages-assistant.js" },
+  { "scenes": "thread", "source": "app/assistants/thread-assistant.js" }
+]

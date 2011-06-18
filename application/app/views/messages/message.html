@@ -1,0 +1,25 @@
+<div id="m_#{message.id}" class="palm-row y-message #{message.className}">
+  <div class="palm-row-wrapper">
+    <div class="title">
+      <div class="y-avatar">
+        <img src="#{user.mugshot_url}" width="48" height="48" />
+      </div>
+      <div class="y-reply">
+        #{message.thread.stats.updates}
+      </div>
+
+      <div class="y-username">#{user.full_name}</div>
+      <div class="y-text">#{message.body.plain}</div>
+      
+      <div class="y-footer">
+        <div class="y-date">#{message.created_at}</div>
+        <div class="y-via">
+          <span>via</span> #{message.client_type}
+        </div>
+
+        <div class="fix"></div>
+      </div>
+
+    </div>
+  </div>
+</div>

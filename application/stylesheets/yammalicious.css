@@ -1,0 +1,202 @@
+.space {
+  height: 30px;
+}
+.spinner, .spinnerXL {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.spinnerXL {
+  top: 0px;
+  left: 100px;
+}
+.fix {
+  clear: both;
+}
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.swipe-menu {
+/*
+  height: 100px;
+  line-height: 50px;
+*/
+}
+.btn {
+  text-align: center;
+  font-size: 24px;
+  display: inline-block;
+  color: #bababa;
+  width: 75px;
+  padding: 0 5px;
+}
+
+.palm-scene.transparent {
+  background: inherit;
+  position: relative;
+  z-index: 2;
+}
+
+.splash-scene {
+  width: 320px;
+  height: 452px;
+  background: url(../images/splashBackground.png) center no-repeat;
+  text-shadow: #000 0px -1px 1px;
+}
+.splash-scene.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.10;
+}
+
+#version {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #4c4c4c;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  left: 85px;
+}
+
+.yammit {
+  width: 320px;
+  background: #FFF;
+  height: 360px;
+}
+
+#replyForm .yammit {
+  height: 400px;
+}
+
+#replyForm {
+  opacity: 0;
+}
+
+#updateStatusForm, #replyForm {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 480px;
+  width: 320px;
+  background: #b4b4b4;
+}
+
+#updateId {
+  width: 320px;
+  background: #868686;
+  color: #d2d2d2;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  text-align: center;
+  border-top: 1px solid #363636;
+  position: absolute;
+  bottom: 28px;
+}
+
+#updateId.selected {
+  background: #d2d2d2;
+  color: #868686;
+}
+
+#updateStatus {
+  width: 320px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px 0;
+  color: #cacaca;
+  background: #323232;
+}
+
+#updateStatus.selected {
+  color: #323232;
+  background: #cacaca;
+}
+
+.y-cmdmenu {
+  border-top: 1px solid #2d2d2d;
+  position: fixed;
+  bottom: 0px;
+}
+
+#replyTo, #likedBy {
+  width: 159px;
+  background: #323232;
+  color: #cacaca;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px 0;
+}
+#replyTo {
+  float: left;
+  border-right: 1px solid #2d2d2d;
+}
+#likedBy {
+  float: right;
+  border-left: 1px solid #2d2d2d;
+}
+
+/* thread */
+.y-avatar {
+  float: left;
+  height: 48px;
+  width: 48px;
+  background: #FFF;
+  border: 1px solid #d2d2d2;
+  padding: 2px;
+  margin: 0 5px 5px 0;
+}
+.y-reply {
+  float: right;
+  font-size: 1.1em;
+  color: #007bc7;
+}
+.y-username {
+  color: #007bc7;
+}
+.y-text {
+  font-size: 0.8em;
+  color: #4b4b4b;
+}
+.y-footer {
+  margin: 10px 0 0;
+}
+.y-date {
+  float: left;
+  font-size: 0.6em;
+  color: #b0b0b0;
+}
+.y-via {
+  float: right;
+  font-size: 0.6em;
+  color: #007bc7;
+}
+.y-via span {
+  color: #b0b0b0;
+}
+
+.y-message.reply {
+  background: #4b4b4b;
+}
+.y-message.reply .y-avatar {
+  float: right;
+  margin: 0 0 5px 5px;
+}
+.y-message.reply .y-avatar, .y-message.reply .y-avatar img {
+  width: 32px;
+  height: 32px;
+}
+.y-message.reply .y-date, .y-message.reply .y-via span {
+  color: #818181;
+}
+.y-message.reply .y-via {
+  color: #cacaca;
+}
+.y-message.reply .y-text {
+  color: #b4b4b4;
+}
